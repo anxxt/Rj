@@ -10,9 +10,7 @@ const putPhoto = (day, img) => {
   }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  const day = new Date().getDay()
-  const img = document.querySelector("img")
+const day = new Date().getDay()
+const img = document.querySelector("img")
 
-  putPhoto(day, img)
-})
+putPhoto(day, img)
